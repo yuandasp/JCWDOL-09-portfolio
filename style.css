@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 128px;
+  height: 72px;
+  align-items: center;
+}
+
+.navbar-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+}
+
+#home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 128px;
+  background-color: #88cfca;
+  height: 473px;
+  align-items: center;
+}
+
+/* .page1 {
+  flex-grow: 2;
+  background-color: palevioletred;
+}
+
+.image-page-1 {
+  flex-grow: 1;
+  background-color: orange;
+} */
+
+.highlight {
+  font-size: 56px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.about-me {
+  background-color: black;
+  border: 1px solid black;
+  padding: 8px 16px;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.075s;
+  margin-top: 36px;
+}
+
+#profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 128px;
+  height: 600px;
+  align-items: center;
+  gap: 144px;
+}
+
+/* .half-circle {
+  width: 400px;
+  height: 200px;
+  border-radius: 0 0 12rem 12rem;
+  background-color: #88cfca;
+} */
+
+.can-do {
+  font-size: 56px;
+  color: #88cfca;
+}
+
+#skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 128px;
+  height: 473px;
+  align-items: center;
+  gap: 56px;
+}
+
+.angka {
+  text-align: center;
+  border: 2px solid #88cfca;
+  border-radius: 24px;
+  padding: 24px;
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+  background-color: #88cfca;
+  border-radius: 100%;
+  width: 44px;
+  height: 44px;
+}
+
+.can-do {
+  text-align: center;
+}
